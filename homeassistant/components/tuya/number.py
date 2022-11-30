@@ -308,6 +308,16 @@ NUMBERS: dict[str, tuple[NumberEntityDescription, ...]] = {
             icon="mdi:thermometer-lines",
         ),
     ),
+    # Dehumidifier
+    # https://developer.tuya.com/en/docs/iot/f?id=K9gf45ts0b8lz
+    "cs": (
+        NumberEntityDescription(
+            key=DPCode.DEHUMIDITY_SET_VALUE,
+            name="Humidity target",
+            device_class=NumberDeviceClass.HUMIDITY,
+            icon="mdi:target",
+        ),
+    ),
 }
 
 

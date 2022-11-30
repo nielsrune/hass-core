@@ -219,6 +219,7 @@ class DPCode(StrEnum):
     HUMIDIFIER = "humidifier"  # Humidification
     HUMIDITY = "humidity"  # Humidity
     HUMIDITY_CURRENT = "humidity_current"  # Current humidity
+    HUMIDITY_INDOOR = "humidity_indoor"  # Current indoor humidity
     HUMIDITY_SET = "humidity_set"  # Humidity setting
     HUMIDITY_VALUE = "humidity_value"  # Humidity
     IPC_WORK_MODE = "ipc_work_mode"

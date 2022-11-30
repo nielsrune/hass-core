@@ -913,6 +913,16 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
             icon="mdi:waves-arrow-up",
         ),
     ),
+    # Dehumidifier
+    # https://developer.tuya.com/en/docs/iot/s?id=K9gf48r6jke8e
+    "cs": (
+        TuyaSensorEntityDescription(
+            key=DPCode.HUMIDITY_INDOOR,
+            name="Indoor humidity",
+            device_class=SensorDeviceClass.HUMIDITY,
+            state_class=SensorStateClass.MEASUREMENT,
+        ),
+    ),
     # Air Purifier
     # https://developer.tuya.com/en/docs/iot/s?id=K9gf48r41mn81
     "kj": (
