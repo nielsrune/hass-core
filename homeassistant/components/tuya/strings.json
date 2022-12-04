@@ -133,6 +133,12 @@
           "90": "90°"
         }
       },
+      "fan_speed": {
+        "state": {
+          "low": "Low",
+          "high": "High"
+        }
+      },
       "curtain_mode": {
         "state": {
           "morning": "Morning",

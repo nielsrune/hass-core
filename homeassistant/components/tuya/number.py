@@ -315,7 +315,6 @@ NUMBERS: dict[str, tuple[NumberEntityDescription, ...]] = {
             key=DPCode.DEHUMIDITY_SET_VALUE,
             name="Humidity target",
             device_class=NumberDeviceClass.HUMIDITY,
-            icon="mdi:target",
         ),
     ),
 }

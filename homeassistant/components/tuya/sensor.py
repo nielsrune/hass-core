@@ -918,8 +918,7 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
     "cs": (
         TuyaSensorEntityDescription(
             key=DPCode.HUMIDITY_INDOOR,
-            name="Indoor humidity",
-            device_class=SensorDeviceClass.HUMIDITY,
+            name="Humidity",
             state_class=SensorStateClass.MEASUREMENT,
         ),
     ),
